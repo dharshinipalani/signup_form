@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+   <div class="signup-container">
+    <div class="form-container">
+     <div class="title"><h3 class="underline">Re</h3><h3>gistration</h3></div>
+     <form action="">
+        
+        <div class="margin-bottom-20">
+            <input type="text" id="name" class="border-none input-style " placeholder="Enter your Name" >
+            <span id="name-error"></span>
+        </div>
+        <div class="margin-bottom-20">
+            <input type="email" id="email" class="border-none input-style" placeholder="Enter your Email" >
+        <span id="email-error"></span>
+        </div>
+        <div class="margin-bottom-20"> 
+               <div class="input-style">
+                 <input type="password" id="password" class="border-none password-input" placeholder="Create Password" >
+                 <i class="uil uil-eye icon" id="password-eye"></i>
+               </div>
+               <span id="password-error"></span>
+        </div>
+        <div class="margin-bottom-20">
+            <div class="input-style">
+                 <input type="password" id="confirmPassword" class="border-none password-input" placeholder="Confirm Password" >
+                 <i class="uil uil-eye icon" id="confirm-password-eye"></i>
+            </div>
+            <span id="confirm-password-error"></span>
+        </div>
+
+        <div class="agree">
+            <input type="checkbox" id="agree">
+            <label for="agree">I accept all terms & conditions</label>
+        </div>
+        <span id="agree-error"></span>
+        <button class="input-style" id="submit" type="button">Register Now</button>
+        <p class="center-text">Already have an account? <a href="#" style="text-decoration: none;">Login here</a></p>  
+    </form>
+   </div>
+   <div class="page-background">
+
+    <p>Beautiful <br> Sign up <br> Form</p>
+
+   </div>
+   </div>
+   <script src="./index.js"></script>
+</body>
+</html>
